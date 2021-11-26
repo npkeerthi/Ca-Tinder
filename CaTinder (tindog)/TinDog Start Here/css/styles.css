@@ -1,0 +1,156 @@
+#title{
+  background-color: #A902FF; /*ff4c68 /*9900CC*/
+    color: white;
+    height: 550px;
+}
+
+h1{
+  font-family:"Montserrat";
+  font-size: 3rem;
+  line-height:1.5;
+  font-weight:900;
+
+}
+
+p{
+  color:grey;
+}
+
+/* Brand Navigation bar  */
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight:700;
+  font-size: 1.5rem;
+}
+
+.navbar{
+  margin-top: -10px;
+  padding-bottom: 50px;
+}
+
+.nav-item{
+  padding:0 15px;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+body{
+  font-family: "Montserrat";
+  font-weight:400;
+}
+
+/* downl buttons */
+.downlbutn{
+  margin: 12px 8px ;
+}
+
+/* phone img */
+.catphone{
+  /* position: absolute;
+  z-index:-1; */
+  width: 230px;
+  transform: rotate(25deg);
+  position: relative;
+  right: -50px;
+  /* bottom: -100px; */
+}
+
+.fas{
+  font-size:64px;
+  color:#ff4c68;
+  margin:0.5rem;
+}
+
+.fas:hover{
+  color:#CB11FF;
+}
+
+
+#features{
+  background-color:white;
+  position:relative;
+  /* z-index: 1;   positioned are anyways above the before one */
+  padding:6%;
+  margin:0 -60px;
+}
+
+.featurecol{
+   text-align:center;
+   padding:-6%;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight:700;
+}
+
+
+/* 💦 */
+.mymark {
+  position: relative;
+}
+
+.mymark:after {
+  content: "Download mac";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+    background-image: url("http://placehold.it/100x100/09f/fff.png");
+    background-size: 100px 100px;
+    background-position: 30px 30px;
+    background-repeat: no-repeat;
+    opacity: 0.0;
+}
+/* 💦 */
+
+#testimonials{
+
+  text-align:center;
+  /* padding:6% 15%; */
+  /* margin:0 60px; */
+  background-color:#A902FF;
+  color:#fff;
+}
+
+.carousel-item{
+  padding:6% 15%;
+}
+
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.reviewpic{
+  width: 10%;
+  border-radius: 100%;   /*forhelp*/
+  margin: 20px;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+}
+
+#press{
+  background-color: #A902FF;
+  text-align: center;
+  padding:3%;
+}
+
+.presslogo{
+  width: 150px;
+  margin: 20px 20px 50px;;
+}
+
+/* prcing */
+
+#pricing{
+  padding:60px;
+  text-align: center;
+}
