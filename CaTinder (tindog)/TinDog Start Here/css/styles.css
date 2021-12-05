@@ -1,7 +1,7 @@
 #title{
   background-color: #A902FF; /*ff4c68 /*9900CC*/
     color: white;
-    height: 550px;
+
 }
 
 h1{
@@ -47,6 +47,8 @@ body{
 }
 
 /* phone img */
+
+
 .catphone{
   /* position: absolute;
   z-index:-1; */
@@ -56,6 +58,7 @@ body{
   right: -50px;
   /* bottom: -100px; */
 }
+
 
 .fas{
   font-size:64px;
@@ -108,6 +111,8 @@ h3{
 }
 /* 💦 */
 
+
+
 #testimonials{
 
   text-align:center;
@@ -152,5 +157,34 @@ h2{
 
 #pricing{
   padding:60px;
+  text-align: center;
+}
+
+@media (max-width: 888px){
+  #title{
+    text-align: center;
+  }
+  .downlbutn{
+    margin: -20px auto 25px;
+  }
+  .catphone{
+    position: static;
+    transform: rotate(0);
+
+  }
+}
+
+#cta{
+  background-color:#A902FF;
+  padding: 10% 10% ;
+  text-align: center;
+  
+}
+.ldownl{
+    margin: 12px 8px ;
+}
+
+#footer{
+  margin: 3% 2%;
   text-align: center;
 }
