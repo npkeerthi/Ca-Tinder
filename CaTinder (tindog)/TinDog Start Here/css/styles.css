@@ -89,8 +89,6 @@ h3{
   font-weight:700;
 }
 
-
-/* 💦 */
 .mymark {
   position: relative;
 }
@@ -109,9 +107,6 @@ h3{
     background-repeat: no-repeat;
     opacity: 0.0;
 }
-/* 💦 */
-
-
 
 #testimonials{
 
@@ -174,17 +169,30 @@ h2{
   }
 }
 
+
+/* //last */
+
 #cta{
   background-color:#A902FF;
-  padding: 10% 10% ;
+  padding: 5% 15% ;
   text-align: center;
-  
+  color: White;
 }
+
+
 .ldownl{
-    margin: 12px 8px ;
+    margin: 30px 8px ;
 }
 
 #footer{
   margin: 3% 2%;
   text-align: center;
+}
+
+.media,a{
+  border-radius: 100px;
+  color:#A902FF;
+}
+.media:hover ,a:hover{
+  color:black;
 }
