@@ -176,7 +176,7 @@ h2{
   background-color:#A902FF;
   padding: 5% 15% ;
   text-align: center;
-  color:White;
+  color:#FFFFFF;
 }
 
 
@@ -194,5 +194,5 @@ h2{
   color:#A902FF;
 }
 .media:hover,a:hover{
-  color:black;
+  color:#000000;
 }
