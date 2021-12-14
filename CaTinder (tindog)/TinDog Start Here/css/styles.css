@@ -89,11 +89,11 @@ h3{
   font-weight:700;
 }
 
-.mymark {
+.mmakk {
   position: relative;
 }
 
-.mymark:after {
+.mmakk:after {
   content: "Download mac";
   display: block;
   width: 100%;
@@ -153,6 +153,12 @@ h2{
 #pricing{
   padding:60px;
   text-align: center;
+}
+
+.card-name{
+  font-family:'Ubuntu';
+  font-weight:400;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 888px){
