@@ -202,3 +202,10 @@ h2{
 .media:hover,a:hover{
   color:#000000;
 }
+
+
+/*  multiple selectors  h1,p
+
+hierafchi sel   parent child   ex:    .thisclass #idthatisin    read left to ryt
+
+combined sel  sel#sel ex:  h1#withidnamed */
